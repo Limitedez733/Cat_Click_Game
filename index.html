@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Cat_Click_Game</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <script src="script.js"></script>
-    <button onclick="spawnCat()">CAT</button>
+    <div id="ui">
+      <h1 id="title">Cat_Click_Game</h1>
+      <button id="CAT" onclick="spawnCat()" style="width: 150px; height: 100px;">CAT</button>
     <p>Please Click My Cat!</p>
+    <p id="message"></p>
+  </div>
   </body>
 </html>

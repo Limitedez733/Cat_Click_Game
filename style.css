@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+#ui {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000;
+
+    background-color: aliceblue;
+    padding: 16px 20px;
+    border: 3px solid #222;
+    border-radius: 16px;
+
+    box-shadow: 6px 6px 0 #222;
+}
+
+#title {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+#CAT {
+    font-size: 20px;
+    padding: 10px 18px;
+    border: 3px solid #222;
+    border-radius: 12px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+#CAT:hover {
+    transform: translateY(-2px);
+}
+
+#CAT:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+#message {
+    margin: 10px 0 0;
+    font-weight: bold;
+}
